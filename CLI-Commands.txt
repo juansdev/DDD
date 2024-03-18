@@ -1,0 +1,19 @@
+﻿1. Crear solución: dotnet new sln -o NombreSolucion
+2. Crear biblioteca de clase siguiendo la arqutiectura DDD
+2.1. dotnet new classlib -o Domain -f net7.0
+2.2. dotnet new classlib -o Application -f net7.0
+2.3. dotnet new classlib -o Infrastructure -f net7.0
+3. Crear proyecto de tipo webapi: dotnet new webapi -o Web.API -f net7.0
+4. Relacionar nuestra solucion con los proyectos.
+4.1. El dominio no debe de referir a nadie.
+4.2. La aplicación debe referir al dominio: dotnet add Application/Application.csproj reference Domain/Domain.csproj
+4.3. La infraestructura debe referir al dominio: dotnet add Infrastructure/Infrastructure.csproj reference Domain/Domain.csproj
+4.4. La infraestructura debe referir a la aplicacion: dotnet add Infrastructure/Infrastructure.csproj reference Application/Application.csproj
+4.5. La webapi debe referir a la aplicacion: dotnet add Web.API/Web.API.csproj reference Application/Application.csproj Infrastructure/Infrastructure.csproj
+4.6. La solución debe referir a la webapi: dotnet sln add Web.API/Web.API.csproj
+4.7. La solución debe referir a la infraestructura: dotnet sln add Infrastructure/Infrastructure.csproj
+4.8. La solución debe referir a la aplicación: dotnet sln add Application/Application.csproj
+4.9. La solución debe referir al dominio: dotnet sln add Domain/Domain.csproj
+
+- Construir la solución: dotnet build
+- Desplegar el proyecto: dotnet run -p Web.API
