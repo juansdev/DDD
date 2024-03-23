@@ -17,3 +17,5 @@
 
 - Construir la solución: dotnet build
 - Desplegar el proyecto: dotnet run -p Web.API
+- Agregar migraciones: dotnet ef migrations add InitialMigration -p Infrastructure -s Web.API -o Persistence/Migration
+- Ejecutar migraciones: dotnet ef database update -p Infrastructure -s Web.API 

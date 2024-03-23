@@ -16,7 +16,7 @@ public partial record PhoneNumber
         }
         return new PhoneNumber(value);
     }
-    private string Value { get; init; }
+    public string Value { get; init; }
     [GeneratedRegex(Pattern)]
     private static partial Regex PhoneNumberRegex();
 }

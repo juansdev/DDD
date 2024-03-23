@@ -2,11 +2,11 @@
 
 public partial record Address
 {
-    private Address(string country, string line1, string lin2, string city, string state, string zipCode)
+    private Address(string country, string line1, string line2, string city, string state, string zipCode)
     {
         Country = country;
         Line1 = line1;
-        Line2 = lin2;
+        Line2 = line2;
         City = city;
         State = state;
         ZipCode = zipCode;
