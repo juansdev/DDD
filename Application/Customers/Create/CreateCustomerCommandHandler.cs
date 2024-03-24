@@ -40,7 +40,7 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
                 address,
                 true
             );
-            await _customerRepository.Add(customer);
+            _customerRepository.Add(customer);
             await _unitOfWork.SaveChangeAsync(cancellationToken);
             return Unit.Value;
         }
