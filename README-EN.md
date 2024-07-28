@@ -353,15 +353,16 @@ Externally, MySQL and EntityFrameworkCore support are incorporated within the In
 > ```console
 > $ dotnet build
 > ```
+>
+> 4. Edit the connection to your MySQL database in the "Database" key located in the Web.API/appsettings.Development.json file.
+>
+> 5. Activate the Apache and MySQL servers.
 
 ###  Usage
 
 <h4>From <code>source</code></h4>
 
-> Run DDD using the command below:
-> ```console
-> $ dotnet run
-> ```
+> Deploy the project using the HTTPS launch profile.
 
 ###  Tests
 
