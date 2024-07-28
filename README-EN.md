@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://simpleicons.org/icons/dotenv.svg" style="filter:invert(1);" width="100" alt="project-logo">
+  <img src="https://simpleicons.org/icons/dotnet.svg" style="filter:invert(1);" width="100" alt="project-logo">
 </p>
 <p align="center">
     <h1 align="center">Domain Driven Design</h1>
@@ -8,7 +8,7 @@
     <em>¡Gestión Ágil de Clientes usando la Arquitectura Domain Driven Design!</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/juansdev/DDD?style=default&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/license/juansdev/DDD?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/juansdev/DDD?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/juansdev/DDD?style=default&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/juansdev/DDD?style=default&color=0080ff" alt="repo-language-count">
