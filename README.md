@@ -357,6 +357,8 @@ Externamente, el soporte de MySQL y EntityFrameworkCore se incorpora dentro de l
 > 4. Edite la conexión a su BD de MySQL en la llave "Database" alojada en el archivo Web.API/appsettings.Development.json.
 >
 > 5. Active el servidor Apache y MySQL.
+>
+> 6. Ejecutar las migraciones mediante el comando "update-database"
 
 ###  Uso
 

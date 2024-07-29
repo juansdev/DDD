@@ -357,6 +357,8 @@ Externally, MySQL and EntityFrameworkCore support are incorporated within the In
 > 4. Edit the connection to your MySQL database in the "Database" key located in the Web.API/appsettings.Development.json file.
 >
 > 5. Activate the Apache and MySQL servers.
+>
+> 6. Run the migrations using the command "update-database"
 
 ###  Usage
 
